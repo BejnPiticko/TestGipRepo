@@ -1,3 +1,5 @@
+package Dorticek;
+
 public class ZeleDort implements DortInterface {
     private DortInterface dort;
     public ZeleDort(DortInterface dort) {
@@ -5,7 +7,7 @@ public class ZeleDort implements DortInterface {
     }
     public String pripravDort() {
 
-        return dort.pripravDort() + "- s zele ";
+        return dort.pripravDort() + "\n- s zele ";
 
     }
 

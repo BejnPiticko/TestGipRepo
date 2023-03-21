@@ -1,3 +1,5 @@
+package Dorticek;
+
 public class CokoDort implements DortInterface {
     private DortInterface dort;
     public CokoDort(DortInterface dort) {
@@ -5,7 +7,7 @@ public class CokoDort implements DortInterface {
     }
     public String pripravDort() {
 
-        return dort.pripravDort() + "- s cokoladou ";
+        return dort.pripravDort() + "\n- s cokoladou ";
 
     }
 
